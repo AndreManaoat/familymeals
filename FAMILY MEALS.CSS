@@ -1,0 +1,175 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+.banner
+{
+    background-image: url(FAMILYGALLERY/familymealsbg.jpg);
+    background-attachment: fixed;
+    background-color:black;
+}
+.navbar
+{
+    width: 85%;
+    margin: auto;
+    padding: 35px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo
+{
+    width: 180px;
+    border-radius: 200px;
+    border: 2px solid #2f4f4f;
+}
+.navbar ul li 
+{
+    list-style: none;
+    display: inline-block;
+    margin: 0 20px;
+    position: relative;
+    font-size: 20px;
+}
+.navbar ul li a
+{
+    text-decoration: none;
+    color: #fff;
+    text-transform: uppercase;
+}
+.navbar ul li ::after
+{
+    content: '';
+    height: 3px;
+    width: 0;
+    background: #F0D274;
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    transition: 0.5s;
+}
+.navbar ul li a:hover::after
+{
+    width: 100%;
+}
+.navbar ul li a:hover
+{
+    color: orange;
+}
+.navbar2 ul li 
+{
+    list-style: none;
+    display: inline-block;
+    position: relative;
+    margin-top: 10px;
+    font-size: 20px;
+    font-family: tahoma;
+}
+.navbar2 ul li a
+{
+    text-decoration: none;
+    background-color: #F0D274;
+    padding: 5px;
+    color: black;
+    text-transform: uppercase;
+    border-radius: 5px;
+}
+.navbar2 ul li ::after
+{
+    content: '';
+    height: 3px;
+    width: 0;
+    background: #F0D274;
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    transition: 0.5s;
+}
+.navbar2 ul li a:hover::after
+{
+    width: 100%;
+}
+.navbar2 ul li a:hover
+{
+    color: white;
+}
+.content
+{
+    width: 100%;
+}
+h1
+{
+    display: inline-block;
+    font-size: 100px;
+    margin-left: 640px;
+    color: #2f4f4f;
+    background-color: #F0D274;
+    border-radius: 5px;
+    padding:0px 20px 0px 20px;
+    box-shadow: 0px 0px 20px #F0D274;
+}
+img.dessert
+{
+    width:350px;
+    height: 350px;
+    border: #F0D274 2px solid;
+    margin-top: 5%;
+    margin-left: 12%;
+}
+img.dessert:hover{ box-shadow: 0px 0px 20px #F0D274; }
+img.dessert2
+{
+    width:350px;
+    height: 350px;
+    border: #F0D274 2px solid;
+    margin-top: 5%;
+    margin-left: 12%;
+}
+img.dessert2:hover{ box-shadow: 0px 0px 20px #F0D274; }
+img.dessert3
+{
+    width:350px;
+    height: 350px;
+    border: #F0D274 2px solid;
+    margin-top: 5%;
+    margin-left: 12%;
+}
+img.dessert3:hover{ box-shadow: 0px 0px 20px #F0D274; }
+.FAMILY1
+{
+    margin-left: 340px;
+}
+.FAMILY2
+{
+    margin-left: 440px;
+}
+.FAMILY3
+{
+    margin-left: 410px;
+}
+.FAMILY4
+{
+    margin-left: 320px;
+}
+.FAMILY5
+{
+    margin-left: 390px;
+}
+.FAMILY6
+{
+    margin-left: 420px;
+}
+.FAMILY7
+{
+    margin-left: 315px;
+}
+.FAMILY8
+{
+    margin-left: 390px;
+}
+.FAMILY9
+{
+    margin-left: 420px;
+}
